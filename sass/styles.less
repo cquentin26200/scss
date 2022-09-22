@@ -1,0 +1,20 @@
+@color1: rgb(208, 229, 76);
+
+#rectangle1 {
+    width: 20rem;
+    height: 10rem;
+    background-color: @color1;
+    border: lighten(@color1, -20%) 10px solid;
+}
+
+#rectangle2 {
+    width: 20rem;
+    height: 10rem;
+    background-color: lighten(@color1, 30%);
+    border: lighten(@color1, -20%) 10px solid;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
